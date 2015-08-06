@@ -355,6 +355,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9de9128bf1d26c145a0ec43316086279, type: 2}
+    - target: {fileID: 100000, guid: 526caf3ea28b78946acfa55eaab418e0, type: 3}
+      propertyPath: m_Name
+      value: BeardedManInDarkSuit
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 526caf3ea28b78946acfa55eaab418e0, type: 3}
   m_IsPrefabParent: 0
@@ -2886,7 +2890,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 526caf3ea28b78946acfa55eaab418e0, type: 3}
       propertyPath: m_Name
-      value: Man sitting N070814 (1)
+      value: BeardedManInWhiteSuit
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 526caf3ea28b78946acfa55eaab418e0, type: 3}
       propertyPath: m_LocalScale.x
@@ -2903,7 +2907,7 @@ Prefab:
     - target: {fileID: 2300000, guid: 526caf3ea28b78946acfa55eaab418e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 4870a5e6b7eaf874fa90b4ab2c5bf5b7, type: 2}
+      objectReference: {fileID: 2100000, guid: 6e510ff6d9243a14092eb68f4a04399d, type: 2}
     - target: {fileID: 2300000, guid: 526caf3ea28b78946acfa55eaab418e0, type: 3}
       propertyPath: m_UseLightProbes
       value: 1
