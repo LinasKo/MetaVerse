@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.graphics.Point;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager.LayoutParams;
 import android.widget.Button;
@@ -63,7 +64,12 @@ public class RtcActivity extends Activity implements WebRtcClient.RtcListener {
         mSocketAddress += (":" + getResources().getString(R.string.port) + "/");
 
         vrButton = (Button)findViewById(R.id.vrButton);
-        //button.
+        vrButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startVR();
+            }
+        });
 
         vsv = (GLSurfaceView) findViewById(R.id.glview_call);
         vsv.setPreserveEGLContextOnPause(true);
@@ -143,7 +149,7 @@ public class RtcActivity extends Activity implements WebRtcClient.RtcListener {
     public void answer(String callerId) throws JSONException {
         client.sendMessage(callerId, "init", null);
         startCam();
-        startVR();
+        //startVR();
     }
 
     public void call(String callId) {
@@ -155,9 +161,9 @@ public class RtcActivity extends Activity implements WebRtcClient.RtcListener {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (requestCode == VIDEO_CALL_SENT) {
+        if (requestCode ==  VIDEO_CALL_SENT) {
             startCam();
-            startVR();
+            //startVR();
         }
     }
 
