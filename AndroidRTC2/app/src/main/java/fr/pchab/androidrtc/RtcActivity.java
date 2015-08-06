@@ -6,10 +6,12 @@ import android.content.Intent;
 import android.graphics.Point;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager.LayoutParams;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 import org.json.JSONException;
 import org.webrtc.MediaStream;
@@ -47,7 +49,7 @@ public class RtcActivity extends Activity implements WebRtcClient.RtcListener {
     private WebRtcClient client;
     private String mSocketAddress;
     private String callerId;
-    private Button vrButton;
+    private ImageButton vrButton;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -63,10 +65,11 @@ public class RtcActivity extends Activity implements WebRtcClient.RtcListener {
         mSocketAddress = "http://" + getResources().getString(R.string.host);
         mSocketAddress += (":" + getResources().getString(R.string.port) + "/");
 
-        vrButton = (Button)findViewById(R.id.vrButton);
+        vrButton = (ImageButton)findViewById(R.id.vrButton);
         vrButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.e("lol", "on click");
                 startVR();
             }
         });
@@ -175,9 +178,11 @@ public class RtcActivity extends Activity implements WebRtcClient.RtcListener {
     public void startVR() {
         // Start VR
         Intent mIntent = getPackageManager().getLaunchIntentForPackage(
-                "com.example.CardboardUnityDemo");
+                "com.example.MetaVerse");
+        Log.e("lol", "formed intent");
         if (mIntent != null) {
             try {
+                Log.e("lol", "intent isn't null");
                 startActivity(mIntent);
             } catch (ActivityNotFoundException err) {
                 Toast t = Toast.makeText(getApplicationContext(), "AndroidRTC app not found -_-",

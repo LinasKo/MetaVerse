@@ -60,6 +60,7 @@
      <Compile Include="Assets\Cardboard\Scripts\CardboardProfile.cs" />
      <Compile Include="Assets\Cardboard\Scripts\CardboardUILayer.cs" />
      <Compile Include="Assets\Cardboard\Scripts\GazeInputModule.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\NetworkManager.cs" />
      <Compile Include="Assets\Cardboard\Scripts\Pose3D.cs" />
      <Compile Include="Assets\Cardboard\Scripts\RadialUndistortionEffect.cs" />
      <Compile Include="Assets\Cardboard\Scripts\StereoController.cs" />

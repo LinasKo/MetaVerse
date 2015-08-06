@@ -1279,6 +1279,10 @@ Prefab:
       propertyPath: m_Name
       value: RedShirtGuy
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: b578530b6bce7734eb5271223e4f9448, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b578530b6bce7734eb5271223e4f9448, type: 3}
   m_IsPrefabParent: 0
@@ -2840,7 +2844,11 @@ Prefab:
     - target: {fileID: 9500000, guid: 2f6fc2c3cd1982542b5119a30cf61cc4, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 583f2d48f83ee5f4bae1416b3add8b26, type: 2}
+      objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 2f6fc2c3cd1982542b5119a30cf61cc4, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f6fc2c3cd1982542b5119a30cf61cc4, type: 3}
   m_IsPrefabParent: 0
