@@ -25,7 +25,7 @@ using System.Threading;
 public class UDPSender : MonoBehaviour
 { 
     private static int localPort;
-    private float sendingDelay = 0.1f;
+    private float sendingDelay = 0.05f;
 
     // prefs
     private string IP;  // define in init
