@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{7460D1A6-EF64-58CB-9A57-D44800AF48D4}</ProjectGuid>
+	<ProjectGuid>{8A123E6F-FFF4-E334-34B4-1FBAF1B8322A}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -53,7 +53,6 @@
      <Compile Include="Assets\Cardboard\Legacy\Scripts\LegacyCardboardAndroidDevice.cs" />
      <Compile Include="Assets\Cardboard\Legacy\Scripts\SkyboxMesh.cs" />
      <Compile Include="Assets\Cardboard\Legacy\Scripts\StereoLensFlare.cs" />
-     <Compile Include="Assets\Cardboard\Scene\Teleport.cs" />
      <Compile Include="Assets\Cardboard\Scripts\Cardboard.cs" />
      <Compile Include="Assets\Cardboard\Scripts\CardboardEye.cs" />
      <Compile Include="Assets\Cardboard\Scripts\CardboardHead.cs" />
@@ -64,6 +63,7 @@
      <Compile Include="Assets\Cardboard\Scripts\Pose3D.cs" />
      <Compile Include="Assets\Cardboard\Scripts\RadialUndistortionEffect.cs" />
      <Compile Include="Assets\Cardboard\Scripts\StereoController.cs" />
+     <Compile Include="Assets\Cardboard\Scripts\Teleport.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\BaseAndroidDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\BaseCardboardDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\BaseVRDevice.cs" />

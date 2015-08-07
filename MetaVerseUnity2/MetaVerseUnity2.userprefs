@@ -1,6 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\MetaVerseUnity\Assets\Cardboard\Scripts\Teleport.cs">
+    <Files>
+      <File FileName="..\MetaVerseUnity\Assets\Cardboard\Scripts\Teleport.cs" Line="26" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
