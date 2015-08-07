@@ -37,8 +37,11 @@ public class TeleportLegacyUI : Teleport {
     if (!CardboardOnGUI.OKToDraw(this)) {
       return;
     }
-    if (GUI.Button(new Rect(50, 50, 200, 50), "Exit")) {
-      Exit();
+    if (GUI.Button(new Rect(50, 50, 200, 50), "Reset")) {
+      Reset();
+    }
+    if (GUI.Button(new Rect(50, 110, 200, 50), "Recenter")) {
+      Cardboard.SDK.Recenter();
     }
     if (GUI.Button(new Rect(50, 170, 200, 50), "VR Mode")) {
       ToggleVRMode();

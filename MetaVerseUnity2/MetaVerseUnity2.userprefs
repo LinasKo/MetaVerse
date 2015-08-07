@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\MetaVerseUnity\Assets\Cardboard\Scripts\Teleport.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\MetaVerseUnity\Assets\Cardboard\Legacy\DemoScene\TeleportLegacyUI.cs">
     <Files>
-      <File FileName="..\MetaVerseUnity\Assets\Cardboard\Scripts\Teleport.cs" Line="26" Column="2" />
+      <File FileName="..\MetaVerseUnity\Assets\Cardboard\Legacy\DemoScene\TeleportLegacyUI.cs" Line="32" Column="16" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
